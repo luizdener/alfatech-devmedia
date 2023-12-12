@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body,html {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 35px 0px;
+
+    width: 100%;
+}
+
+.header img{
+    width: 100px;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.header div h1{
+    font-size: 32px;
+    color: #000000;
+}
+
+.header div p {
+    color: #2f86d6;
+    font-size: 16px;
+}
+
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #233032;
+}
+
+.banner {
+    width: 100%;
+    height: 50%;
+
+    background-color: #2f86d6;
+
+    padding: 180px 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.limited-width {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    
+    margin: 0px 150px;
+}
+
+.banner img {
+    scale: 100%;
+}
+
+.banner-text {
+    color: #fff;
+
+    width: 470px;
+}
+
+.banner-text h2{
+    font-size: 28px;
+    color: #fff;
+}
+
+.banner-text p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.division {
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.division h2{
+    font-size: 24px;
+    color: #fff
+}
+
+.division p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.division a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 250px;
+
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #2f86d6;
+    color: #fff;
+
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.first {
+    background-color: #233032;
+}
+
+.second {
+    background-color: #2f86d6;
+}
+
+.second a{
+    background-color: #233032;
+}
+
+#informacoes {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+}
+
+.subtitulo-principal{
+    font-size: 32px;
+    color:#000000;
+}
+
+.destaque {
+    color: #2f86d6;
+}
+
+.services-container{
+    display: flex;
+
+    margin-top: 40px;
+
+    gap: 10px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.service img {
+    width: 20%;
+}
+
+.service h3{
+    font-size: 18px;
+    color: #000000;
+}
+
+.service p{
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+
+    max-width: 557px;
+}
+
+#planos {
+    width: 100%;
+    height: 50%;
+
+    background-color: #f1f3f7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#planos table{
+    box-shadow: 0px 0px 15px 5px #2f86d6;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+    padding: 10px;
+
+    max-width: 800px;
+}
+
+#planos table img{
+    width: 30%;
+}
+
+#planos table thead {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+#planos table thead tr{
+    display: flex;
+    background-color: #f6f6f6; 
+
+}
+
+#planos table th{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 18px;
+    color: #000000; 
+}
+
+th p{
+    font-weight: lighter;
+    font-size: 13px;
+    color: #a89f9f;
+}
+
+#planos tbody {
+    width: 100%;
+}
+
+#planos table tbody tr {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 15px;
+    background-color: #f6f6f6;
+}
+
+#planos table tbody > tr:nth-child(2n){
+    background-color: #f1f3f7;
+}
+
+#planos table tbody td {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+
+#contato {
+    width: 100%;
+    height: 50%;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    margin-bottom: 50px;
+}
+
+.logo-text img{
+    width: 20%;
+}
+
+.logo-text h1{
+    font-size: 32px;
+    color: #000000;
+}
+
+.logo-text p {
+    color: #2f86d6;
+    font-size: 16px;
+}
+
+#contato p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+
+    width: 100%;
+    padding: 20px;
+
+    position: absolute;
+
+    bottom: 0;
+
+    background-color: #f1f3f7;
+}
+
